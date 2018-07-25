@@ -65,69 +65,116 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-.navigation a {
-	color: #cdd2d8;
-	font-size: 14px;
-	position: relative;
-	width: 100px;
-	height: 36px;
-	display: inline-block;
-	text-align: center;
-	/* padding: 15px; */
-	/* margin: 10px; */
-	/* border: 10px double tomato; */
-	text-decoration: none;
-	
-	
-}
 
-.logo {
-	display:inline-block;
-	margin-left: 10px;
-	margin-top: 45px;
-}
 
-header {
-	display: inline-block;
-	position: relative;
-}
-
-.get-started {
-	border: 2px solid black;
-	text-decoration: none;
-	width: 100px;
-	height: 20px;
-	color: black;
-	padding: 10px;
-
-}
-
-.slogan {
-	font-size: 72px;
-	text-align: center;
-	font-family: 'Bangers', cursive;
-
-}
-
-.top-content {
-	display: inline-block;
-	width: 500px;
-	height: 200px;
-}
-.middle-img {
-
-}
-h2 {
-	display: inline-block;
-}
-
-.bottom-content {
+div	{
 	display: inline-block;
 }
 
 .container {
-	width: 1000px;
-	margin: 0 auto;
+	margin: auto;
+	width: 876px;
+	
+}
+.top nav {
+	display: inline-block;
+}
+
+.top-nav nav a {
+	font-size: 14px;
+	width: 100px;
+	height: 36px;
+	display: inline-block;
+	color: #cdd2d8;
+	text-align: center;
+	text-decoration: none;
+	/* border: solid black; */
+	padding: 0px;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+.logo {
+	vertical-align: top;
+	
+	
+}
+
+header {
+	display: inline-block;
+	
+}
+
+h1 {
+	font-size: 72px;
+	margin-bottom: 80px;
+	text-align: center;
+
+}
+
+.splash {
+	height: 500px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid black;
+}
+
+.splash div {
+	display: inline-block;
+	text-align: center;
+	/* padding-top: 50px; */
+	width: 438px;
+}
+
+.splash img {
+	position: relative;
+	/* left: 50px; */
+	width: 438 px;
+}
+
+.get-started {
+	border: 1px solid black;
+	text-decoration: none;
+	width: 400px;
+	height: 20px;
+	color: black;
+	padding: 5px 45px;
+
+}
+
+
+
+.top-content div {
+	display: inline-block;
+	width: 430px;
+	height: 120px;
+}
+.middle-img {
+	display: block;
+	padding-bottom: 30px;
+}
+.bottom-content {
+	border-bottom: 1px solid black;
+}
+
+.bottom-content div {
+	display: inline-block;
+	width: 33%;
+	padding-bottom: 30px;
+}
+
+
+.contact {
+	padding-top: 30px;
+}
+
+address p {
+	margin-bottom: 20px;
+}
+
+address p a{
+	text-decoration: none;
+	color:black;
+	
 }
 
 footer {
